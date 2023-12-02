@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Minicards from "./components/Minicards";
 import Hero from "./components/Hero";
 import EndClicker from "./components/EndClicker";
+import Footer from "./components/Footer";
 import { TbTopologyStarRing } from "react-icons/tb";
 import { IoDocument } from "react-icons/io5";
 import { TbTargetArrow } from "react-icons/tb";
@@ -39,6 +40,7 @@ function App() {
       <Hero/>
       <Cutdrawing/>
       <EndClicker/>
+      <Footer/>
     </div>
   );
 }
